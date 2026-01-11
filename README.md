@@ -2,12 +2,18 @@
 
 ## Repositorio local (en mi computador)
 
-1.`git init` para inicializar repositorio 2.`git add .`o `git add <nombre-archivo>` para agregar cambios al area de preparación 3.`git commit -m "mensaje descriptivo"` para guardar(confirmar) los cambios en el historial del repositorio
+1. `git init` para inicializar repositorio
+2. `git add .`o `git add <nombre-archivo>` para agregar cambios al area de preparación
+3. `git commit -m "mensaje descriptivo"` para guardar(confirmar) los cambios en el historial del repositorio
 
 ### Repositorio remoto (en Github)
 
-1.`git push origin main` `git push <repositorio-remoto> <rama-para-enviar` envia los cambios desde el repositorio local al remoto
+1. `git push origin main` `git push <repositorio-remoto> <rama-para-enviar` envia los cambios desde el repositorio local al remoto
 
 ## Me arrepentí...
 
 1. `git checkout -- <nombre-archivo-a-restaurar>` Descarta los cambios hechos en un archivo del directorio de trabajo y lo devuelve al estado exacto del último commit
+
+## Me arrepenti (segunda opción)
+
+1. `git restore <nombre-archivo>` Descarta los cambios hechos en un archivo del directorio de trabajo y lo devuelve al estado exacto del último commit
